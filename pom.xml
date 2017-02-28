@@ -67,6 +67,7 @@
         <module>jsprit-io</module>
         <module>jsprit-examples</module>
         <module>jsprit-instances</module>
+        <module>jsprit-custom</module>
     </modules>
 
     <properties>
