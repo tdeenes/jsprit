@@ -60,7 +60,7 @@
                   <archive>
                     <manifest>
                         <addClasspath>true</addClasspath>
-                        <mainClass>comp.graphhopper.custom.TobaccoOptimization</mainClass>
+                        <mainClass>com.graphhopper.custom.TobaccoOptimizationMinMaxTime</mainClass>
                     </manifest>
                   </archive>
                 </configuration>
