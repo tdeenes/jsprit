@@ -60,7 +60,7 @@ public class TobaccoOptimization {
             max_iter = 1000;
         }
         if (args.length > 1) {
-            scale_unassigned_cost = Integer.parseInt(args[1]);
+            scale_unassigned_cost = Double.parseDouble(args[1]);
         } else {
             scale_unassigned_cost = 0.2;
         }
@@ -124,8 +124,6 @@ public class TobaccoOptimization {
 
             /*
              * Solve the problem.
-             *
-             *
              */
         Collection<VehicleRoutingProblemSolution> solutions = vra.searchSolutions();
         new VrpXMLWriter(vrp, solutions).write("output/temp_solution.xml");

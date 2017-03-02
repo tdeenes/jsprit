@@ -116,12 +116,12 @@ public class TobaccoOptimizationMinMaxTime {
             max_iter = 100;
         }
         if (args.length > 1) {
-            scale_maxtime_cost = Integer.parseInt(args[1]);
+            scale_maxtime_cost = Double.parseDouble(args[1]);
         } else {
             scale_maxtime_cost = 1.;
         }
         if (args.length > 2) {
-            scale_unassigned_cost = Integer.parseInt(args[2]);
+            scale_unassigned_cost = Double.parseDouble(args[2]);
         } else {
             scale_unassigned_cost = 0.2;
         }
