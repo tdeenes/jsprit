@@ -1,0 +1,3 @@
+id kapacitas terhelhetoseg x y departure arrival dist_cost time_cost fixed_cost skill day
+LTC726_day1 130000 1044000 734.01 205.39 360 900 0.2 1 0 x day1
+LXF951_day1 90000 1525000 734.01 205.39 360 900 0.2 1 0 x,belvaros day1
